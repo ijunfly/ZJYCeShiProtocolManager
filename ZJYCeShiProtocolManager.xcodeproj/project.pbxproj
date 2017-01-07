@@ -13,13 +13,12 @@
 		189614B31E1DDFC70066A3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189614B11E1DDFC70066A3B7 /* Main.storyboard */; };
 		189614B51E1DDFC70066A3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189614B41E1DDFC70066A3B7 /* Assets.xcassets */; };
 		189614B81E1DDFC70066A3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189614B61E1DDFC70066A3B7 /* LaunchScreen.storyboard */; };
-		189614E81E1DF0530066A3B7 /* ZJYProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189614E71E1DF0530066A3B7 /* ZJYProtocolManager.m */; };
+		189615941E20BA540066A3B7 /* ZJYCeShiProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189615931E20BA540066A3B7 /* ZJYCeShiProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		189614A51E1DDFC70066A3B7 /* ZJYCeShiProtocolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJYCeShiProtocolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189614A91E1DDFC70066A3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		189614AB1E1DDFC70066A3B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		189614AC1E1DDFC70066A3B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		189614AE1E1DDFC70066A3B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		189614AF1E1DDFC70066A3B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -27,8 +26,9 @@
 		189614B41E1DDFC70066A3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189614B71E1DDFC70066A3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189614B91E1DDFC70066A3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		189614E61E1DF0530066A3B7 /* ZJYProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYProtocolManager.h; sourceTree = "<group>"; };
-		189614E71E1DF0530066A3B7 /* ZJYProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYProtocolManager.m; sourceTree = "<group>"; };
+		189615901E20B97B0066A3B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189615921E20BA540066A3B7 /* ZJYCeShiProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiProtocolManager.h; sourceTree = "<group>"; };
+		189615931E20BA540066A3B7 /* ZJYCeShiProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		189614A71E1DDFC70066A3B7 /* ZJYCeShiProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				189614E21E1DEC930066A3B7 /* ZJYProtocolManager */,
-				189614AB1E1DDFC70066A3B7 /* AppDelegate.h */,
+				189615911E20BA540066A3B7 /* ZJYCeShiProtocolManager */,
+				189615901E20B97B0066A3B7 /* AppDelegate.h */,
 				189614AC1E1DDFC70066A3B7 /* AppDelegate.m */,
 				189614AE1E1DDFC70066A3B7 /* ViewController.h */,
 				189614AF1E1DDFC70066A3B7 /* ViewController.m */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		189614E21E1DEC930066A3B7 /* ZJYProtocolManager */ = {
+		189615911E20BA540066A3B7 /* ZJYCeShiProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				189614E61E1DF0530066A3B7 /* ZJYProtocolManager.h */,
-				189614E71E1DF0530066A3B7 /* ZJYProtocolManager.m */,
+				189615921E20BA540066A3B7 /* ZJYCeShiProtocolManager.h */,
+				189615931E20BA540066A3B7 /* ZJYCeShiProtocolManager.m */,
 			);
-			path = ZJYProtocolManager;
+			path = ZJYCeShiProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189614B01E1DDFC70066A3B7 /* ViewController.m in Sources */,
-				189614E81E1DF0530066A3B7 /* ZJYProtocolManager.m in Sources */,
+				189615941E20BA540066A3B7 /* ZJYCeShiProtocolManager.m in Sources */,
 				189614AD1E1DDFC70066A3B7 /* AppDelegate.m in Sources */,
 				189614AA1E1DDFC70066A3B7 /* main.m in Sources */,
 			);

@@ -6,19 +6,19 @@
 //  Copyright © 2017年 JunFly. All rights reserved.
 //
 
-#import "ZJYProtocolManager.h"
+#import "ZJYCeShiProtocolManager.h"
 
-@interface ZJYProtocolManager ()
+@interface ZJYCeShiProtocolManager ()
 
 @property (nonatomic, strong) NSMutableDictionary *serviceProvideSource;
 
 @end
 
-@implementation ZJYProtocolManager
+@implementation ZJYCeShiProtocolManager
 
-+ (ZJYProtocolManager *)sharedInstance
++ (ZJYCeShiProtocolManager *)sharedInstance
 {
-    static ZJYProtocolManager * instance;
+    static ZJYCeShiProtocolManager * instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[self alloc] init];

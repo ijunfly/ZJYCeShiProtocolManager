@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZJYProtocolManager : NSObject
+@interface ZJYCeShiProtocolManager : NSObject
 
 + (void)registServiceProvide:(id)provide forProtocol:(Protocol*)protocol;
 
